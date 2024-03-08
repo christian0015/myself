@@ -30,6 +30,7 @@ header {
     align-items: center;
     justify-content: space-between;
     box-shadow: 0px 2px 4px rgb(192, 128, 128);
+    box-shadow: 0px 2px 4px rgb(21, 119, 136);
     position: fixed;
     border-top-left-radius: 40px;
     border-top-right-radius: 40px;
@@ -126,7 +127,7 @@ main {
 
 #button-contact {
     background-color: rgba(188, 192, 192, 0.411);
-    color: rgb(236, 97, 97);
+    color: rgb(21, 119, 136);
     font-size: 20px;
     width: 200px;
     padding: 25px;
@@ -135,7 +136,7 @@ main {
     border-bottom-left-radius: 70px;
     border-bottom-right-radius: 70px;
     max-width: border width 100px ;
-    border: rgb(192, 128, 128) solid 20px;
+    border: rgb(21, 119, 136) solid 20px;
 }
 
 #button-contact::before{
