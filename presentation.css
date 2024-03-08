@@ -148,6 +148,7 @@ main {
     transform: translate(-50%, -50%) rotate(-45deg) scale(1);
     box-shadow: 0 0 100px rgba(188, 192, 192, .5);
     transition: all .5s linear infinite;
+    animation: QAEE 2s  linear infinite ;
 }
 @keyframes QAEE {
     0%{
