@@ -275,7 +275,7 @@ main {
 }
 
 h2 {
-    rgb(21, 119, 136);
+    color: rgb(21, 119, 136);
 }
 
 /*Seul l'element footer reste sans modification*/
