@@ -121,7 +121,12 @@
 
 
         </div>
-
+        <div class="boule">
+            <img src="pc.png" alt="" srcset="" width="150">
+            <!-- <img 
+            src="https://th.bing.com/th/id/R.8a8ce504f6c956c38a7c5505dd789faf?rik=7U9hDjcf8UdwzQ&riu=http%3a%2f%2fmiam-images.m.i.pic.centerblog.net%2f5bd05620.png&ehk=LEy4ZnK7TO8UhZLXbH%2bMbo4PCtFcYfIAFvOEYpLsDmY%3d&risl=&pid=ImgRaw&r=0"
+             alt="" srcset="" width="200"> -->
+        </div>
         <div class="projet" style="margin: 100px 1px -20px 10px;"><h2>Tecnologials tools :</h2></div> 
         <div id="skills-img">
             <img src="html.png" alt="image skills" id="logoS">
@@ -221,6 +226,8 @@
 
     </main>
 
+
+
     <footer>
 
 
@@ -243,6 +250,25 @@
         </div>
     </footer>
 </body>
+<script>
+    var direction = 1; // 1 pour droite, -1 pour gauche
+
+    window.addEventListener('scroll', function() {
+      // Obtient la position de défilement verticale
+      var scrollPosition = window.scrollY;
+
+      // Calcule la nouvelle position horizontale de la boule en fonction du défilement
+      var newPosition = (direction === 1) ? 100 - (scrollPosition / (document.documentElement.scrollHeight - window.innerHeight)) * 150 : (scrollPosition / (document.documentElement.scrollHeight - window.innerHeight)) * 150;
+
+      // Met à jour la position de la boule
+      document.querySelector('.boule').style.marginLeft = newPosition + '%';
+
+      // Change la direction lorsque la boule atteint le bord
+      if (newPosition <= 0 || newPosition >= 100) {
+        direction = -direction;
+      }
+    });
+  </script>
 
 </html>
 <script>

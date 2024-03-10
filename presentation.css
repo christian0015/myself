@@ -3,6 +3,7 @@ body {
     font-size: 100%;
     background-color: rgb(238, 238, 238);
     color: rgb(131, 131, 131);
+    overflow-x: hidden;
 }
 
 .center {
@@ -536,3 +537,15 @@ footer {
 .menu-bar:hover .menu-bar:nth-child(3) {
     transform: translateY(-5px) rotate(-45deg);
 }
+
+.boule {
+    position: fixed;
+    z-index:  9999;
+    width: 30px;
+    height: 30px;
+    background-color:rgb(25, 129, 148);;
+    border-radius: 50%;
+    top: 50%;
+    transform: translateY(100%); /* Démarre la boule hors de l'écran à droite */
+    transition: transform 0.5s ease; /* Ajoute une transition fluide pour le déplacement */
+  }
