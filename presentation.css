@@ -236,19 +236,26 @@ main {
     align-items: start;
     font-size: 140%;
     padding: 20px;
-    background-color: rgb(80, 80, 80);
-    color: rgb(226, 224, 224);
+    box-shadow: -10px -10px 10px rgba(253, 253, 253, 0.705), 10px 10px 10px rgba(148, 148, 148, 0.164)  ;
+    /* background-color: rgb(235, 235, 235); */
+    background-color: none;
+    color: rgb(83, 83, 83);
     border-top-left-radius: 30px;
     border-top-right-radius: 30px;
     border-bottom-left-radius: 30px;
-    border-bottom-right-radius: 30px;
+    border-bottom-right-radius: 30px;   
     margin-top: 30px;
     max-width: 800px;
+    transform: rotate(-10deg) scale(.9);
 }
 
 #img-service {
     width: 500px;
     border-radius: 10px;
+}
+
+.descriptService{
+    transform: rotate(-deg)
 }
 
 #about,
