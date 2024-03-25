@@ -185,6 +185,7 @@ main {
     color: rgb(112, 112, 112);
     padding: 10px;
     font-family: system-ui;
+    font-family: monospace;
     font-size: x-large;
     width: 300px;
     font-weight: 200;
@@ -516,6 +517,10 @@ footer {
 
 .menu-bar:nth-child(2) {
     width: 20px;
+}
+
+.menu-bar:nth-child(3) {
+    width: 15px;
 }
 
 /* Styles pour le menu complet (contenant les trois barres) */
